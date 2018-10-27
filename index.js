@@ -2,11 +2,11 @@
 function scuberGreetingForFeet(feet) {
   let message;
   if (feet > 2500) {
-    message = "No can do."
+    message = "No can do.";
   } else if (feet > 2000) {
-    message = "I will gladly take your thirty bucks."
+    message = "I will gladly take your thirty bucks.";
   } else if (feet <= 400) {
-    message = "This one is on me!"
+    message = "This one is on me!";
   }
   return message
 }
